@@ -1,12 +1,11 @@
-# 🛒 API Commerce
+# 🛒 API Commerce Catalog
 
-A frontend e-commerce product catalog that fetches live items from a products API and displays them in a modern, responsive layout.
+A responsive e-commerce product catalog that fetches live items from a products API and displays them in a modern, responsive card-based layout.
 
 ---
 
-## 📌 Overview
-
-**API-Commerce** is a responsive storefront landing page designed to demonstrate integration with RESTful product APIs. The page requests items asynchronously, formats them into visually appealing cards (complete with prices, descriptions, and images), and structures them for a realistic e-commerce shopping experience.
+## 📌 System Overview
+API-Commerce is a frontend catalog template designed to show integration with RESTful product APIs. It requests database items asynchronously, formats them into cards (complete with prices, descriptions, and categories), and structures them for a realistic e-commerce shopping experience.
 
 ---
 
@@ -14,36 +13,47 @@ A frontend e-commerce product catalog that fetches live items from a products AP
 
 | Technology | Purpose |
 | ---------- | ------- |
-| HTML5      | Structure and semantic markup |
-| CSS3       | E-commerce card layouts & grids |
-| JavaScript | Product API requests & rendering |
+| HTML5      | Core page structure and semantic blocks |
+| CSS3       | Grid/Flex layouts, e-commerce card styles, and responsiveness |
+| JavaScript | Asynchronous catalog retrieval, JSON parsing, and DOM injection |
 
 ---
 
-## 🚀 Key Features
-
-* 🛍️ **Dynamic Catalog:** Fetches products from external APIs dynamically.
-* 📱 **Responsive Grid:** Adapts from small mobile layouts to desktop viewports.
-* 💳 **Store Card UI:** Displays price, ratings, and buy buttons for each item.
-* 🔄 **Loader States:** Displays loading progress states while fetching data.
-
----
-
-## 🏗️ Project Structure
-
-* `index.html` - E-commerce layout with a product grid container.
-* `css/` - Styling folders for modular css layout sheets.
-* `js/` - Folder containing JS script files handling HTTP requests and catalog building.
+## 🚀 Core Features
+* 🛍️ **Dynamic Catalog Loading:** Fetches inventory data from external REST APIs dynamically.
+* 📱 **Responsive Grid Layout:** Adapts layout structure seamlessly from mobile screens to high-res desktop monitors.
+* 💳 **Store Card UI:** Displays price tags, ratings, descriptions, and call-to-action buttons for each item.
+* 🔄 **Loader States:** Implements loading indicators to improve user experience while awaiting API responses.
 
 ---
 
-## 👨&zwj;💻 Author
+## 🏗️ Directory Structure
+```
+├── css/             # Styling folders for layout sheets
+│   └── style.css    # Card alignments and responsive layouts
+├── js/              # Client-side scripts
+│   └── app.js       # Fetch logic and catalog rendering
+└── index.html       # Primary page view containing product grid container
+```
 
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/API-Commerce.git
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd API-Commerce
+   ```
+3. Double-click `index.html` to open it in a browser, or run a local server:
+   ```bash
+   npx live-server
+   ```
+
+---
+
+## 👨‍💻 Author
 **Sayed Herzallah**  
-Frontend Developer
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+Full Stack Developer
